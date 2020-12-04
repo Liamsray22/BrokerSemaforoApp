@@ -3,7 +3,7 @@ var mqtt = require('mqtt')
 var client = mqtt.connect('mqtt://localhost:1883')
 var topic ='Liam'
 
-var message = 'Tan llegando'
+var message = 'TanLLegando'
 var num = 0
 
 client.on('connect', ()=>{
